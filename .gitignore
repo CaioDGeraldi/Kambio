@@ -1,0 +1,47 @@
+# Delphi - arquivos compilados
+*.dcu
+*.dcp
+*.bpl
+*.dcpil
+*.map
+*.rsm
+*.tds
+
+# Executáveis e bibliotecas geradas
+*.exe
+*.dll
+*.so
+*.dylib
+*.ipa
+*.apk
+
+# Configurações locais
+*.local
+*.stat
+*.identcache
+
+# Histórico / recuperação do Delphi
+__history/
+__recovery/
+
+# Backups
+*.~*
+
+# Pastas de build
+Win32/
+Win64/
+Android/
+Android64/
+OSX32/
+OSX64/
+iOSDevice32/
+iOSDevice64/
+iOSSimulator/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VS Code
+.vscode/
