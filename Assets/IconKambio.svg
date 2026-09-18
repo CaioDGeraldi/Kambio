@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Kambio</title>
+  <desc id="desc">Ícone de duas setas interligadas representando troca.</desc>
+
+  <defs>
+    <linearGradient id="kambioTop" x1="8" y1="14" x2="56" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#35E59A"/>
+      <stop offset="1" stop-color="#16B86E"/>
+    </linearGradient>
+    <linearGradient id="kambioBottom" x1="56" y1="50" x2="8" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F5F5"/>
+      <stop offset="1" stop-color="#A7F3D0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- seta superior: fluxo para a direita -->
+  <path
+    d="M8.5 29.5C9.9 17.1 19.9 10 32.2 10h9.3V5.6c0-1.5 1.8-2.3 2.9-1.3l11.2 10.6a2 2 0 0 1 0 2.9L44.4 28.4c-1.1 1-2.9.2-2.9-1.3v-4.4h-9.3c-7.7 0-13.3 3.2-17.2 9.8L11.7 38c-2.7-2.2-3.7-5.3-3.2-8.5Z"
+    fill="url(#kambioTop)"
+  />
+
+  <!-- seta inferior: fluxo para a esquerda -->
+  <path
+    d="M55.5 34.5C54.1 46.9 44.1 54 31.8 54h-9.3v4.4c0 1.5-1.8 2.3-2.9 1.3L8.4 49.1a2 2 0 0 1 0-2.9l11.2-10.6c1.1-1 2.9-.2 2.9 1.3v4.4h9.3c7.7 0 13.3-3.2 17.2-9.8l3.3-5.5c2.7 2.2 3.7 5.3 3.2 8.5Z"
+    fill="url(#kambioBottom)"
+  />
+</svg>
